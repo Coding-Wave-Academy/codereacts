@@ -2,10 +2,12 @@
 
 > Your IDE finally has feelings. Meme sound effects triggered by real coding events — because your errors deserve a *bruh*.
 
-![Build](https://github.com/kandi/codereacts/actions/workflows/release.yml/badge.svg)
-![Version](https://img.shields.io/github/v/release/kandi/codereacts)
-![License](https://img.shields.io/github/license/kandi/codereacts)
+![Build](https://github.com/Coding-Wave-Academy/codereacts/actions/workflows/release.yml/badge.svg)
+![Version](https://img.shields.io/github/v/release/Coding-Wave-Academy/codereacts)
+![License](https://img.shields.io/github/license/Coding-Wave-Academy/codereacts)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%5E1.75.0-blue)
+<img width="1792" height="592" alt="readme banner" src="https://github.com/user-attachments/assets/b68a9d70-b6dc-40dd-8ffc-9583da12038c" />
+
 
 ---
 
@@ -20,7 +22,7 @@
 | File saved | `save.mp3` | Vine Boom |
 | Debug session starts | `debug_start.mp3` | Windows XP Startup |
 | Debug session ends | `debug_stop.mp3` | Windows XP Shutdown |
-| Test pass | `test_pass.mp3` | Among Us Task Complete |
+| Test pass | `test_pass.mp3` | Among Us  |
 | Test fail | `test_fail.mp3` | Noooooo |
 
 ---
@@ -29,7 +31,7 @@
 
 ### Option A — From GitHub Release (recommended)
 
-1. Go to [Releases](https://github.com/kandi/codereacts/releases)
+1. Go to [Releases](https://github.com/Coding-Wave-Academy/codereacts/releases)
 2. Download the latest `.vsix` file
 3. Run:
 ```bash
@@ -39,7 +41,7 @@ code --install-extension meme-sounds-X.X.X.vsix
 ### Option B — From source
 
 ```bash
-git clone https://github.com/kandi/codereacts.git
+git clone https://github.com/Coding-Wave-Academy/codereacts.git
 cd codereacts
 npm install
 npm run package
