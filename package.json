@@ -1,0 +1,87 @@
+{
+  "name": "codereacts",
+  "displayName": "CodeReacts",
+  "description": "Your IDE finally has feelings. Meme sound effects triggered by real coding events — errors, builds, saves, debug sessions, and more.",
+  "version": "1.0.0",
+  "publisher": "Coding Wave Academy",
+  "author": {
+    "name": "Ribert Kandi Jr",
+    "url": "https://github.com/kandi"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kandi/codereacts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kandi/codereacts/issues"
+  },
+  "homepage": "https://github.com/kandi/codereacts#readme",
+  "keywords": [
+    "meme",
+    "sounds",
+    "fun",
+    "developer-experience",
+    "vscode-extension",
+    "audio",
+    "productivity"
+  ],
+  "categories": ["Other"],
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.75.0",
+    "node": ">=16.0.0"
+  },
+  "main": "./src/extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeReacts.testSound",
+        "title": "CodeReacts: Test a Sound 🎵"
+      },
+      {
+        "command": "codeReacts.toggleMute",
+        "title": "CodeReacts: Toggle Mute 🔇"
+      },
+      {
+        "command": "codeReacts.openSoundsFolder",
+        "title": "CodeReacts: Open Sounds Folder 📂"
+      },
+      {
+        "command": "codeReacts.showStreaks",
+        "title": "CodeReacts: Show Active Streaks 🔥"
+      }
+    ],
+    "configuration": {
+      "title": "CodeReacts",
+      "properties": {
+        "codeReacts.cooldownMs": {
+          "type": "number",
+          "default": 2000,
+          "description": "Minimum milliseconds between the same sound playing again. Prevents spam."
+        },
+        "codeReacts.soundsDir": {
+          "type": "string",
+          "default": "",
+          "description": "Custom path to your sounds folder. Leave empty to use the extension's built-in sounds/ folder."
+        },
+        "codeReacts.sounds": {
+          "type": "object",
+          "default": {},
+          "description": "Override individual sound filenames. Keys: error, warning, success, save, debugStart, debugStop, testPass, testFail."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint src/",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "prepublishOnly": "npm run lint"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.24.0",
+    "eslint": "^8.57.0"
+  }
+}

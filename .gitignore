@@ -1,0 +1,14 @@
+node_modules/
+*.vsix
+.vscode-test/
+out/
+dist/
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore actual sound files (users bring their own)
+sounds/*.mp3
+sounds/*.wav
+sounds/*.ogg
+!sounds/PUT_SOUNDS_HERE.txt

@@ -1,0 +1,66 @@
+Drop your meme sound files here (.mp3 or .wav).
+
+CodeReacts uses SOUND POOLS — multiple sounds per event, picked randomly.
+Escalation tiers fire at 3x, 5x, and 10x streaks in a row.
+
+── ERROR ──────────────────────────────────────
+  error_bruh.mp3           (default pool)
+  error_sad_trombone.mp3   (default pool)
+  error_oof.mp3            (default pool)
+  error_noooo.mp3          (default pool)
+  error_seriously.mp3      (streak 3+)
+  error_again.mp3          (streak 3+)
+  error_why.mp3            (streak 5+)
+  error_pain.mp3           (streak 5+)
+  error_uninstall.mp3      (streak 10+) ← nuclear option
+
+── WARNING ────────────────────────────────────
+  warning_uhoh.mp3         (default pool)
+  warning_hmm.mp3          (default pool)
+  warning_suspicious.mp3   (default pool)
+  warning_yikes.mp3        (streak 3+)
+  warning_bro.mp3          (streak 5+)
+  warning_disaster.mp3     (streak 10+)
+
+── SUCCESS ────────────────────────────────────
+  success_gta.mp3          (default pool)
+  success_airhorn.mp3      (default pool)
+  success_yay.mp3          (default pool)
+  success_lets_go.mp3      (default pool)
+  success_on_fire.mp3      (streak 3+)
+  success_unstoppable.mp3  (streak 5+)
+  success_goat.mp3         (streak 10+)
+
+── SAVE ───────────────────────────────────────
+  save_vine_boom.mp3       (default pool)
+  save_thud.mp3            (default pool)
+  save_click.mp3           (default pool)
+  save_ctrl_s_addict.mp3   (streak 10+)
+
+── DEBUG ──────────────────────────────────────
+  debug_start_windows.mp3  (default pool)
+  debug_start_hype.mp3     (default pool)
+  debug_start_again.mp3    (streak 3+)
+  debug_stop_shutdown.mp3  (default pool)
+  debug_stop_bye.mp3       (default pool)
+
+── TESTS ──────────────────────────────────────
+  test_pass_amogus.mp3     (default pool)
+  test_pass_ding.mp3       (default pool)
+  test_pass_poggers.mp3    (default pool)
+  test_pass_on_fire.mp3    (streak 3+)
+  test_pass_cracked.mp3    (streak 5+)
+  test_pass_goat.mp3       (streak 10+)
+  test_fail_noo.mp3        (default pool)
+  test_fail_bruh.mp3       (default pool)
+  test_fail_rip.mp3        (default pool)
+  test_fail_why_god.mp3    (streak 3+)
+  test_fail_quit.mp3       (streak 5+)
+  test_fail_uninstall.mp3  (streak 10+)
+
+You don't need ALL files. The extension gracefully warns once per missing file.
+Start with just the default pools and add escalation tiers later.
+
+Free sources:
+  https://www.myinstants.com
+  https://freesound.org

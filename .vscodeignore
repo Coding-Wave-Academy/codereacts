@@ -1,0 +1,7 @@
+.github/
+.gitignore
+.eslintrc*
+node_modules/
+**/*.test.js
+CONTRIBUTING.md
+sounds/PUT_SOUNDS_HERE.txt
