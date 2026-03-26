@@ -7,7 +7,7 @@ Contributions are welcome! Whether it's a new sound trigger, a bug fix, or a bet
 ## Getting Started
 
 ```bash
-git clone https://github.com/kandi/codereacts.git
+git clone https://github.com/Coding-Wave-Academy/codereacts.git
 cd codereacts
 npm install
 ```
