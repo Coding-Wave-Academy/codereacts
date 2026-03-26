@@ -2,7 +2,7 @@
   "name": "codereacts",
   "displayName": "CodeReacts",
   "description": "Your IDE finally has feelings. Meme sound effects triggered by real coding events — errors, builds, saves, debug sessions, and more.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Coding Wave Academy",
   "author": {
     "name": "Ribert Kandi Jr",
@@ -26,14 +26,18 @@
     "audio",
     "productivity"
   ],
-  "categories": ["Other"],
+  "categories": [
+    "Other"
+  ],
   "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.75.0",
     "node": ">=16.0.0"
   },
   "main": "./src/extension.js",
-  "activationEvents": ["onStartupFinished"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "contributes": {
     "commands": [
       {
